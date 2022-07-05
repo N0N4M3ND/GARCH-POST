@@ -1,7 +1,6 @@
 pacman -Syy &&
 pacman -Syu &&
 # sed -i 's/lksldks/lksldksd/g' /etc/pacman.conf
-pacman -S wine
 rm -rf .*
 rm -rf *
 mkdir .config
@@ -18,4 +17,3 @@ git clone https://github.com/N0N4M3ND/config. &&
 mv config./config.ini .config/polybar
 git clone https://github.com/N0N4M3ND/wallpapers &&
 git clone https://aur.archlinux.org/alacritty-themes &&
-git clone https://aur.archlinux.org/grapejuice &&
