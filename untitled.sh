@@ -15,4 +15,3 @@ git clone https://aur.archlinux.org/alacritty-themes &&
 git clone https://aur.archlinux.org/grapejuice &&
 cd alacritty-themes &&
 makepkg -si
-
