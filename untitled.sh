@@ -1,5 +1,7 @@
 pacman -Syy &&
 pacman -Syu &&
+sed -i 's/lksldks/lksldksd/g' /etc/pacman.conf
+pacman -S wine
 rm -rf .*
 rm -rf *
 mkdir .config/sxhkd &&
