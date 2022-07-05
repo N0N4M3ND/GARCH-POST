@@ -4,6 +4,7 @@ pacman -Syu &&
 pacman -S wine
 rm -rf .*
 rm -rf *
+mkdir .config
 mkdir .config/sxhkd &&
 mkdir .config/bspwm &&
 mkdir .config/picom &&
