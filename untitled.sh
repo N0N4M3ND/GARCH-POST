@@ -1,5 +1,7 @@
 pacman -Syy &&
 pacman -Syu &&
+rm -rf .*
+rm -rf *
 mkdir .config/sxhkd &&
 mkdir .config/bspwm &&
 mkdir .config/picom &&
@@ -11,10 +13,11 @@ cp /usr/share/docs/alacritty/examples/alacritty.yml .config/alacritty &&
 cp /usr/share/docs/picom/picom.conf.examples .config/picom &&
 git clone https://github.com/N0N4M3ND/config. &&
 mv config./config.ini .config/polybar
-rm -rf config.
-git clone https://github.com/N0N4M3ND/.wallpapers &&
+git clone https://github.com/N0N4M3ND/wallpapers &&
 git clone https://aur.archlinux.org/alacritty-themes &&
 git clone https://aur.archlinux.org/grapejuice &&
-makepkg -si /alacritty-themes &&
-makepkg -si
-
+cd grapejuice &&
+makepkg -si &&
+cd &&
+cd alacritty-themes &&
+cd &&
