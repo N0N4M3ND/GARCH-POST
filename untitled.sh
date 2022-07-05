@@ -22,4 +22,5 @@ cd grapejuice &&
 makepkg -si &&
 cd &&
 cd alacritty-themes &&
-cd &&
+makepkg -si &&
+cd
