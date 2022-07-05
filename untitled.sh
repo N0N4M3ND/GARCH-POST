@@ -16,5 +16,5 @@ cp /usr/share/doc/picom/picom.conf.example .config/picom &&
 git clone https://github.com/N0N4M3ND/config. &&
 mv config./config.ini .config/polybar
 git clone https://github.com/N0N4M3ND/wallpapers &&
-git clone https://aur.archlinux.org/alacritty-themes
+git clone https://aur.archlinux.org/alacritty-themes &&
 chown arch:arch *
