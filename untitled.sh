@@ -7,7 +7,4 @@ sudo mv wallpapers /usr/share/backgrounds &&
 cd cava &&
 makepkg -si &&
 cd &&
-mv .config config &&
-rm -rf .* &&
-mv config .config &&
 rm -rf *
