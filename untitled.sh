@@ -8,7 +8,4 @@ sudo mv wallpapers /usr/share/backgrounds &&
 cd cava &&
 makepkg -si &&
 cd &&
-cd ytop &&
-makepkg -si &&
-cd &&
 rm -rf *
