@@ -6,5 +6,5 @@ git clone https://aur.archlinux.org/cava &&
 sudo mv wallpapers /usr/share/backgrounds &&
 cd cava &&
 makepkg -si &&
-cd &&
+cd .. &&
 rm -rf *
