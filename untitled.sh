@@ -12,4 +12,5 @@ cd lightdm-webkit2-theme-glorious &&
 makepkg -si &&
 sudo sed -i 's/debug_mode          = false/debug_mode          = true/g' /etc/lightdm/lightdm-webkit2-greeter.conf &&
 sudo sed -i 's/webkit_theme          = antergos/webkit_theme          = glorious/g' /etc/lightdm/lightdm-webkit2-greeter.conf &&
+cd ..
 rm -rf *
